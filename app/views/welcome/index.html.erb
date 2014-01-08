@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>XCHAIN</title>
+
+        <%= stylesheet_link_tag "yeti" %>
+    </head>
+
+    <body>
+        <div class="container-resolution">
+          <div class="text-center">
+            <div class="jumbotron">
+              <h1>Benvenuto</h1>
+              <p>XCHAIN è una piattaforma che ti permette di vendere e comprare con facilità Bitcoin!! </p>
+              <p><b>Sei pronto?</b></p>
+              <p><%= link_to "Login", {:action => 'login', :controller => 'welcome'}, :class => "btn btn-primary btn-lg"%>
+                <%= link_to "Apri un conto", {:action => 'open', :controller => 'welcome'}, :class => "btn btn-primary btn-lg" %></p>
+            </div>
+          </div>
+        </div>
+    </body>
+</html>
