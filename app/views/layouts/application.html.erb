@@ -2,6 +2,7 @@
 <html>
 <head>
   <%= stylesheet_link_tag    "yeti", media: "all", "data-turbolinks-track" => true %>
+  <%= stylesheet_link_tag "landing-style" %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <%= csrf_meta_tags %>
@@ -46,6 +47,7 @@
 </div>
 
 <%= yield %>
+
 
 <%= javascript_include_tag "yeti" %>
 <%= yield(:page_javascript) if content_for?(:page_javascript) %>

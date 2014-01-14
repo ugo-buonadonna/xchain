@@ -1,0 +1,28 @@
+
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container-adptive{
+    background: #ffffff;
+    border: 3px solid grey;
+    overflow: auto;
+    height:100%;
+    align-content: center;
+}
+
+.container-height{
+    background: #ffffff;
+    overflow: auto;
+    height: 50%;
+}
+
+.margin-body{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 90%;
+}
+
